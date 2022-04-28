@@ -9,6 +9,7 @@ More details: https://github.com/docs4all/docs4all
 ## start with nodejs
 
 - clone this repository
+- **create docs folder**
 - add your own md files in docs folder
 - npm install
 - for developers
@@ -20,6 +21,7 @@ More details: https://github.com/docs4all/docs4all
 ## static web
 
 - clone the template
+- **create docs folder**
 - add your own files in docs folder
 - npm install
 - for developers

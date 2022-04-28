@@ -7,11 +7,11 @@
     "start": "docs4all start",
     "publish": "docs4all publish",
     "build": "docs4all build",
-    "dev": "supervisor -w docs -e 'md|js|css|js|html|json' -i database.json node_modules/docs4all/Index.js"
+    "dev": "nodemon --watch docs -e js,md --ignore database.json node_modules/docs4all/Index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "docs4all": "git+https://github.com/docs4all/docs4all.git#1.0.0"
+    "docs4all": "git+https://github.com/docs4all/docs4all.git"
   }
 }
