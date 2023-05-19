@@ -17,7 +17,7 @@ https://github.com/docs4all/docs4all
 
 ```
 docker build -t docs4all .
-docker run -it --name my-team-docs -p 8080:80 docs4all.
+docker run -it --name my-team-wiki -p 8080:80 docs4all
 ```
 
 
