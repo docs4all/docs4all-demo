@@ -1,3 +1,10 @@
+<!--
+{
+  "order":1,
+  "title": "Readme"
+}
+-->
+
 # docs4all demo
 
 Yes, another static site generator for markdown but with **infinite left menu** instead two levels of mkdocs-material, docusaurus 2, justthedocs, etc
@@ -11,25 +18,15 @@ https://github.com/docs4all/docs4all
 
 ## How to run?
 
-- [For developers](https://github.com/docs4all/docs4all?tab=readme-ov-file#run-your-own-demo)
-- [As static site](https://github.com/docs4all/docs4all?tab=readme-ov-file#publish-as-static-web)
+- For developers https://github.com/docs4all/docs4all#start-with-nodejs
+- For server https://github.com/docs4all/docs4all#static-web
 - For server wtith docker
 
 ```
-docker build -t my-site .
-docker run -it --name my-site -p 8080:80 my-site
+docker build -t docs4all .
+docker run -it --name my-team-wiki -p 8080:80 docs4all
 ```
 
-## For github.io pages
-
-```
-export DOCS4ALL_SITE_FOLDER=docs
-npm install
-npm run build
-npm run publish
-```
-
-This will generate the static site in a folder called **docs** ready to be [configured](https://github.com/docs4all/docs4all/assets/3322836/a3f0a8c6-b161-4790-a8cc-998f64c1f7df) as github.io page
 
 ## Contributors
 

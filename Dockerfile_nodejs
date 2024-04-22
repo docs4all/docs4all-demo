@@ -1,8 +1,0 @@
-FROM node:14 as BUILDER
-
-RUN mkdir -p /usr/src/app
-COPY . /usr/src/app
-WORKDIR /usr/src/app
-RUN npm install
-
-CMD ["npm", "run", "start"]
